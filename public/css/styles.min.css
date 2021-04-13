@@ -45,7 +45,7 @@ button:disabled {
   background: #00ace0;
 }
 .centered-form {
-  background: #333744;
+  background: #2d479c;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -54,9 +54,15 @@ button:disabled {
 }
 .centered-form__box {
   box-shadow: 0 0 17px 1px #1d1f26;
-  background: #f7f7fa;
+  background: #95db53;
   padding: 24px;
   width: 250px;
+}
+.centered-form__landing {
+  box-shadow: 0 0 17px 1px #101218;
+  background: #b9e259;
+  padding: 30px;
+  width: 500px;
 }
 .centered-form button {
   width: 100%;
@@ -71,7 +77,7 @@ button:disabled {
 .chat__sidebar {
   height: 100vh;
   color: #fff;
-  background: #333744;
+  background: #2d479c;
   width: 225px;
   overflow-y: scroll;
 }
